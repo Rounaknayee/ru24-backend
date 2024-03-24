@@ -62,7 +62,7 @@ def process_real_prompt_text(prompt_text="", model="", account_id="", api_token=
 
 def get_vector_embeddings(query):
     import openai
-    openai.api_key = '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'
+    openai.api_key = ''
 
     response = openai.embeddings.create(
     model="text-embedding-ada-002",
